@@ -19,6 +19,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install tox requests
     - name: Run tests and collect coverage
-      run: tox
+      run: tox -e coverage
     - name: Upload coverage reports to Codecov with GitHub Action
       uses: codecov/codecov-action@v3
