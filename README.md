@@ -1,2 +1,2 @@
 # cairo-codecov
-Testing codecov integration with cairo lang
+Testing codecov integration with cairo lang.
